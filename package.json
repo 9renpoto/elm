@@ -24,8 +24,8 @@
       "elm-format --validate",
       "git add"
     ],
-    "*.md": [
-      "prettier",
+    "*.{md,json}": [
+      "prettier --write",
       "git add"
     ]
   },
